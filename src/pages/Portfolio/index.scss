@@ -1,0 +1,23 @@
+@import '../../index.scss';
+
+.Portfolio {
+    background-color: $primaryColor;
+    padding: 0 0 100px 0;
+}
+
+.Intro {
+    max-width: 100vw;
+    height: 400px;
+
+    display: flex;
+    align-items: flex-end;
+    
+    background: url("../../assets/images/background1.JPG") no-repeat center;
+    background-size: cover;
+}
+
+.Intro h1 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: rgb(222, 218, 218);
+}

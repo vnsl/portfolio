@@ -1,0 +1,17 @@
+.ProjectLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    // margin: 110px;
+}
+
+.CardSeparator {
+    border: 1px solid white;
+    height: 500px;
+
+}
+
+.PhotoMontage {
+    position: relative;
+}

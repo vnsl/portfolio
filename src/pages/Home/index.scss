@@ -1,0 +1,42 @@
+@import '../../index.scss';
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.homeContainer {
+    background: linear-gradient(0deg, rgba(31, 30, 30, 0.6), rgba(255, 255, 255, 0.3)), url("../../assets/images/background3.JPG") no-repeat center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-color: $primaryColor;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.homeContent {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.homeContainer p {
+    font-size: 40px;
+    color: white;
+    // margin: 40px 0 40px 80px;
+    width: 50vw;
+}
+
+.HomeIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 40px;
+}
+
+.HomeIcons a {
+    color: white;
+}
