@@ -1,6 +1,33 @@
 .Card {
-    height: 160px;
+    height: 400px;
+    width: 600px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card img {
     width: 320px;
-    border-radius: 15px;
-    background-color: white;
+    height: 160px;
+
+    border: none;
+    border-radius: 20px;
+
+    position: absolute;
+}
+
+.img1 {
+    z-index: 999;
+}
+
+.img2 {
+    left: 0;
+    bottom: 0;
+}
+
+.img3 {
+    right: 0;
+    top: 0;
 }

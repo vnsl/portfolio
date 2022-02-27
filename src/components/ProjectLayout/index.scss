@@ -9,9 +9,13 @@
 .CardSeparator {
     border: 1px solid white;
     height: 500px;
-
 }
 
 .PhotoMontage {
     position: relative;
+}
+
+.Photo1 {
+    position: absolute;
+    background-color: pink;
 }

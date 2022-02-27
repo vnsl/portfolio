@@ -1,8 +1,19 @@
+@import '../../index.scss';
+
 .DetailedCard {
     width: 500px;
     height: 600px;
 
-    background-color: rgb(250, 248, 248);
+    background-color: rgb(222, 216, 216);
 
     border-radius: 20px;
+    color: $primaryColor;
+}
+
+.DetailedInfo {
+    height: inherit;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }

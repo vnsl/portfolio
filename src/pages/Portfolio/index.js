@@ -9,9 +9,11 @@ function Portfolio() {
             <div className="Intro">
                 <h1>Portfolio </h1>
             </div>
-            <ProjectLayout></ProjectLayout>
-            <ProjectLayout></ProjectLayout>
-            <ProjectLayout></ProjectLayout>
+            <div className="Projects"> 
+                <ProjectLayout></ProjectLayout>
+                <ProjectLayout></ProjectLayout>
+                <ProjectLayout></ProjectLayout>
+            </div>
         </div>
     )
 }
