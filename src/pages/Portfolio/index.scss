@@ -2,7 +2,6 @@
 
 .Portfolio {
     background-color: $primaryColor;
-    padding: 0 0 100px 0;
 }
 
 .Intro {
@@ -20,4 +19,11 @@
     margin-bottom: 40px;
     font-size: 60px;
     color: rgb(222, 218, 218);
+}
+
+.Projects {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px 0;
 }

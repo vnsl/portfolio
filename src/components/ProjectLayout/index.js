@@ -7,8 +7,6 @@ function ProjectLayout() {
     return (
         <div className="ProjectLayout">
             <div className="PhotoMontage">
-                <Card className="Photo1"></Card>
-                <Card></Card>
                 <Card></Card>
             </div>
             <div className="CardSeparator"></div>
