@@ -1,20 +1,27 @@
 import React from 'react';
 
-import profileImage from '../../assets/images/Logo_Vini_2.png'
+import logo from '../../assets/images/logo.svg'
 
 import './index.scss';
 
 function Header() {
     return(
         <div className='header'>
-            <div className='logo'>
-                <img className='image2' src={profileImage} alt='Profile'/>
-                {/* <p>V N S L</p> */}
-            </div>
+           
+            <img className='image2' src={logo} alt='Profile'/>
+           
+            <div>
                 <a href="/">Home</a>
+            </div>
+            <div>
                 <a href="/about">About</a>
+            </div>
+            <div>
                 <a href="/projects">Projects</a>
+            </div>
+            <div>
                 <a href="/contact">Contact</a>
+            </div>
         </div>
     )
 }

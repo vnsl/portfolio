@@ -11,8 +11,6 @@ function Portfolio() {
             </div>
             <div className="Projects"> 
                 <ProjectLayout></ProjectLayout>
-                <ProjectLayout></ProjectLayout>
-                <ProjectLayout></ProjectLayout>
             </div>
         </div>
     )
