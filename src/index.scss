@@ -15,7 +15,7 @@ code {
 }
 
 $primaryColor: #142c50;
-$secondaryColor: #9ba7b1;
+$secondaryColor: #FFFFFF;
 $thirdColor: #5A1807;
 
 $primaryFont: 'Unna', cursive;
@@ -23,13 +23,23 @@ $secondaryFont: 'Confortaa', cursive;
 $thirdFont: 'Forum', monospace;
 
 body {
-  width: 100vw;
+  // width: 100vw;
   font-family: $thirdFont;
-  overflow-y:auto;
 }
 
 h1 {
   font-size: 48px;
-  color: $secondaryColor;
+  color: $primaryColor;
 }
 
+p {
+  line-height: 1.5em;
+}
+
+.triangle {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  z-index: 1;
+}

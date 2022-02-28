@@ -8,7 +8,6 @@ import './index.scss';
 function Home() {
     return (
         <div className="homeContainer">
-            <div className="homeContent">
                 <p>"Hey There, I am a FullStack Developer. I am currently working for Ford Motor Company. I am always trying to learn everything that I can and challenging myself to reach higher goals."</p>
                 <div className="HomeIcons">
                     <a href="https://github.com/vnsl" target="_blank" rel="noreferrer">
@@ -22,7 +21,7 @@ function Home() {
                     </a>
                 </div>
             
-            </div>              
+                   
         </div>
 
     )

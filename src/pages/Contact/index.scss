@@ -1,31 +1,43 @@
 @import '../../index.scss';
 
 .Contact {
-    height: 450px;
-    width: 100vw;
-    background-color: $thirdColor;
+    min-height: 450px;
+    height: 100vh;
+    // height: 100%;
+    background-color: #FFFFFF;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
+
+    position: relative;
 }
 
-.ContactSeparator {
-    height: 180px;
-    border: 2px solid $secondaryColor;
+.Contact h1 {
+    margin: 0 0 10px 0;
 }
 
-.ContactProfile, .ContactTech {
+.ContactProfile {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    z-index: 2;
 }
 
-.ContactProfile h1, .ContactProfile h2 {
-    color: $secondaryColor;
+.ContactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    z-index: 2;
 }
+
+.ContactSeparator {
+    border: 1px solid $primaryColor;
+}
+
 
 .image {
     background-color: black;
@@ -34,19 +46,11 @@
     border-radius: 50%;
 }
 
-.iconsContainer {
-    font-size: 24px;
-    color: white;
-    display: flex;
-    gap: 10px;
-    cursor: pointer;
-}
-
-.iconsContainerTech {
+.iconsContainer, .iconsContainer a {
     font-size: 40px;
-    cursor: unset;
+    color: $primaryColor;
 }
 
 .iconsContainer a {
-    color: white;
+    cursor: pointer;
 }
