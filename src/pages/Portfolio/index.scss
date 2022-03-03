@@ -4,20 +4,28 @@
     background-color: $primaryColor;
     min-height: 100vh;
     max-width: 1500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
 }
 
-.Portfolio h1 {
-    padding: 60px 0 0 40px;
+.PortfolioHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 80px;
+    color: white;
+}
+
+.PortfolioHeader h1 {
     color: white;
 }
 
 .projectCards {
     display: grid;
-    justify-self: center;
+    // justify-self: center;
+    margin: 0 0 50px 0;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: 250px;
-    gap: 50px 0;
+    gap: 50px;
 }

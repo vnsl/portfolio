@@ -4,11 +4,11 @@ import CustomModal from "../CustomModal";
 import './index.scss';
 
 function ProjectCard({project}) {
-    
+
   return (
-    <div className="ProjectCard">
+    <div className="ProjectCard" >
         <h1>{project.Title}</h1>
-        <CustomModal></CustomModal>
+        <CustomModal project={project}></CustomModal>
     </div>
   )
 }

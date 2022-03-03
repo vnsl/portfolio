@@ -3,7 +3,7 @@ import { Modal, Button } from 'antd';
 
 import './index.scss';
 
-function CustomModal() {
+function CustomModal({project}) {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
@@ -23,17 +23,22 @@ function CustomModal() {
       <Button type="primary" onClick={showModal}>
         Show Info
       </Button>
-      <Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
+      <Modal title={project.Title} visible={isModalVisible}
+        footer={[
+          <Button key="close" onClick={handleCancel}>
+            Close
+          </Button>
+        ]} onCancel={handleCancel} width={1000}>
+        <h2>Description:</h2>
+        <p>{project.Description}</p>
+        <h2>Links:</h2>
+        {project.Links.map(link => 
+          <div>
+            <h3>{link.label}:</h3>
+            <p>{link.url}</p>
+          </div>
+        )}
+        {project.Images.map(image => <img src={image} alt={image}/>)}
       </Modal>
     </>
   );
