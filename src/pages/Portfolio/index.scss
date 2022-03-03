@@ -2,25 +2,22 @@
 
 .Portfolio {
     background-color: $primaryColor;
-}
-
-// .Intro {
-//     height: 400px;
-
-//     display: flex;
-//     align-items: flex-end;
-    
-// }
-
-.Intro h1 {
-    margin-bottom: 40px;
-    font-size: 60px;
-    color: rgb(222, 218, 218);
-}
-
-.Projects {
+    min-height: 100vh;
+    max-width: 1500px;
     display: flex;
     flex-direction: column;
-    gap: 100px;
-    padding: 100px 0;
+    justify-content: center;
+}
+
+.Portfolio h1 {
+    padding: 60px 0 0 40px;
+    color: white;
+}
+
+.projectCards {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: 250px;
+    gap: 50px 0;
 }
