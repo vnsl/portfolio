@@ -1,5 +1,7 @@
 import './App.css';
 
+
+
 import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -11,10 +13,10 @@ function App() {
   return (
     <div className='App'>
         <Header/>
-        <Home/>
-        <About/>
-        <Portfolio/>
-        <Contact/>
+        <Home id="Home"/>
+        <About id="About"/>
+        <Portfolio id="Portfolio"/>
+        <Contact id="Contact"/>
         <Footer/>
     </div>
   );
