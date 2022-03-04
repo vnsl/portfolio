@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, Dropdown, Button } from 'antd';
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo_noBar.png';
+
 import { ImMenu } from 'react-icons/im';
 
 import {Link, animateScroll as scroll } from 'react-scroll';
@@ -72,7 +73,7 @@ function Header() {
 
     return(
         <div className='header'>
-            <img className='image2' src={logo} alt='Profile' onClick={scrollToTop}/>
+            <img className='logo' src={logo} alt='Profile' onClick={scrollToTop}/>
             <nav className='navbar'>
                     {/* <Link 
                         to="Home"
