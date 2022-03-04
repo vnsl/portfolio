@@ -19,32 +19,25 @@ function Header() {
             </Menu.Item>
             <Menu.Item key="3">
             <a href="https://www.aliyun.com">[Contact]</a>
-            </Menu.Item>
-            
+            </Menu.Item>   
         </Menu>
     );
 
     return(
         <div className='header'>
-           
             <img className='image2' src={logo} alt='Profile'/>
-            <div>
-                <div>
-                    <a href="/">Home</a>
-                </div>
-                <div>
-                    <a href="/about">About</a>
-                </div>
-                <div>
-                    <a href="/projects">Projects</a>
-                </div>
-                <div>
-                    <a href="/contact">Contact</a>
-                </div>
-                <Dropdown overlay={menu} trigger={['click']} placement='bottomRight'>
-                    <Button><ImMenu></ImMenu></Button>
+            <nav className='navbar'>
+                    <a href="/">[Home]</a>
+              
+                    <a href="/about">[About]</a>
+               
+                    <a href="/projects">[Projects]</a>
+                
+                    <a href="/contact">[Contact]</a>
+            </nav>
+                <Dropdown className='dropdown' overlay={menu} trigger={['click']} placement='bottomRight'>
+                    <Button className='buttonMenu'><ImMenu></ImMenu></Button>
                 </Dropdown>
-            </div>
         </div>
     )
 }

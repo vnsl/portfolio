@@ -1,10 +1,5 @@
 @import '../../index.scss';
 
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .homeContainer {
     background: linear-gradient(180deg, rgba(20, 44, 80, 0) 54.69%, rgba(20, 44, 80, 0.71) 78.65%), url("../../assets/images/background.jpeg") no-repeat center;
     background-size: cover;
@@ -15,8 +10,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
-    max-width: 1500px;
 
     position: relative;
 }
@@ -50,4 +43,9 @@
 
 .HomeIcons a {
     color: white;
+}
+
+
+@media screen and (max-width: 600px){
+    .homeContainer p {font-size: 16px; line-height: 48px; padding-bottom: 30px;}
 }
