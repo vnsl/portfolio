@@ -41,7 +41,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="ContactSeparator"></div>
-                <div className="ContactLinks">
+                <div className="ContactLinks Tech">
                     <h1>[ Technologies ]</h1>
                     <div className="iconsContainer">
                         <a href="http://" target="_blank" rel="noopener noreferrer">

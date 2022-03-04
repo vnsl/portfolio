@@ -61,3 +61,8 @@
     .aboutImg {display: none;}
     .aboutText {align-items: center; text-align: center;}
 }
+
+@media screen and (max-width: 1000px) {
+    .aboutImg {display: none;}
+    .About {align-items: flex-start; padding: 200px 0;}
+}

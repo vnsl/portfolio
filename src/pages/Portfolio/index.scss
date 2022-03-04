@@ -3,14 +3,14 @@
 .Portfolio {
     background-color: $primaryColor;
     min-height: 100vh;
-    padding: 50px;
+    padding: 50px 25px;
 }
 
 .PortfolioHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 80px 0;
+    padding: 100px 80px 0;
     color: white;
     font-size: 28px;
 }
