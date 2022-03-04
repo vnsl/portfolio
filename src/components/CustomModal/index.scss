@@ -1,0 +1,19 @@
+.Modal {
+    width: 800px !important;
+}
+
+.Modal img {
+    width: 200px;
+}
+
+.ModalLinks {
+    display: flex;
+    align-items: center;
+}
+
+.ModalImages {
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, 200px);
+}

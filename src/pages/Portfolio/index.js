@@ -12,7 +12,7 @@ function Portfolio() {
     return (
         <div className="Portfolio">
             <div className="PortfolioHeader">
-                <h1>[Projects]</h1>
+                <h1>[ Projects ]</h1>
                 <FiFilter/>
             </div>
             <div className="projectCards">
