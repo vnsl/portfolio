@@ -4,7 +4,6 @@
     min-height: 450px;
     height: 100vh;
     background-color: #FFFFFF;
-    max-width: 1500px;
 
     display: flex;
     justify-content: center;
@@ -53,4 +52,9 @@
 
 .iconsContainer a {
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .Contact {flex-direction: column; gap: 0; text-align: center;}
+    .aboutText {align-items: center;}
 }

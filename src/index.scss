@@ -39,9 +39,10 @@ p {
 }
 
 .triangle {
+  min-width: 1400px;
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -40px;
+  bottom: 0;
   z-index: 1;
 }

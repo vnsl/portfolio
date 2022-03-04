@@ -5,7 +5,7 @@ import './index.scss';
 
 function CustomModal({project}) {
   const [isModalVisible, setIsModalVisible] = useState(false);
-
+  
   const showModal = () => {
     setIsModalVisible(true);
   };
@@ -34,7 +34,10 @@ function CustomModal({project}) {
             <p>{link.url}</p>
           </div>
         )}
-        {project.Images.map(image => <img src={image} alt={image}/>)}
+        {project.Images.map(image => 
+            <img src={image} alt={image}/>
+        )}
+        {/* <img src={require("../../assets/images/projects/background1.JPG")} alt="aasd" /> */}
       </Modal>
     </>
   );

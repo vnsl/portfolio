@@ -14,7 +14,6 @@ function Portfolio() {
             <div className="PortfolioHeader">
                 <h1>[Projects]</h1>
                 <FiFilter/>
-                {/* <p>Filter</p> */}
             </div>
             <div className="projectCards">
                 {allProjects.map(project => <ProjectCard project={project}/>)}

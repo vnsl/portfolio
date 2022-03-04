@@ -1,7 +1,7 @@
 import React from "react";
 
 import profileImage from '../../assets/images/profile.jpg';
-import { ReactComponent as Polygon } from '../../assets/images/polygon.svg';
+import Polygon from '../../assets/images/polygon.svg';
 
 import { FaCss3Alt, FaHtml5, FaSass, FaReact, FaAngular, FaNodeJs} from 'react-icons/fa';
 import { BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
@@ -21,7 +21,7 @@ function Contact() {
             </div>
             <div className="ContactInfo">
                 <div className="ContactLinks">
-                    <h1>Contact</h1>
+                    <h1>[Contact]</h1>
                     <div className="iconsContainer">
                         <a href="https://www.linkedin.com/in/viniciusnattan/" target="_blank" rel="noreferrer">
                             <AiOutlineLinkedin/>
@@ -42,7 +42,7 @@ function Contact() {
                 </div>
                 <div className="ContactSeparator"></div>
                 <div className="ContactLinks">
-                    <h1>Technologies</h1>
+                    <h1>[Technologies]</h1>
                     <div className="iconsContainer">
                         <FaHtml5/>
                         <FaCss3Alt/>
@@ -55,7 +55,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <Polygon className="triangle"/>
+            <img className="triangle" src={Polygon} alt="sdad" />
         </div>
 
     )
