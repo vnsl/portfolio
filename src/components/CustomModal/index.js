@@ -19,24 +19,26 @@ function CustomModal({project}) {
       <Button type="primary" onClick={showModal}>
         Show Info
       </Button>
-      <Modal title={project.Title} visible={isModalVisible}
+      <Modal className='Modal' title={project.Title} visible={isModalVisible}
         footer={[
           <Button key="close" onClick={handleCancel}>
             Close
           </Button>
-        ]} onCancel={handleCancel} width={1000}>
+        ]} onCancel={handleCancel}>
         <h2>Description:</h2>
         <p>{project.Description}</p>
         <h2>Links:</h2>
         {project.Links.map(link => 
-          <div>
+          <div className='ModalLinks'>
             <h3>{link.label}:</h3>
-            <p>{link.url}</p>
+            <p>{ link.url}</p>
           </div>
         )}
-        {project.Images.map(image => 
-            <img src={image} alt={image}/>
-        )}
+        <div className='ModalImages'>
+          {project.Images.map(image => 
+              <img src={image} alt={image}/>
+          )}
+        </div>
         {/* <img src={require("../../assets/images/projects/background1.JPG")} alt="aasd" /> */}
       </Modal>
     </>

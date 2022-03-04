@@ -21,7 +21,7 @@ function Contact() {
             </div>
             <div className="ContactInfo">
                 <div className="ContactLinks">
-                    <h1>[Contact]</h1>
+                    <h1>[ Contact ]</h1>
                     <div className="iconsContainer">
                         <a href="https://www.linkedin.com/in/viniciusnattan/" target="_blank" rel="noreferrer">
                             <AiOutlineLinkedin/>
@@ -42,7 +42,7 @@ function Contact() {
                 </div>
                 <div className="ContactSeparator"></div>
                 <div className="ContactLinks">
-                    <h1>[Technologies]</h1>
+                    <h1>[ Technologies ]</h1>
                     <div className="iconsContainer">
                         <a href="http://" target="_blank" rel="noopener noreferrer">
                             <FaHtml5/>

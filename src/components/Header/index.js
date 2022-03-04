@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Menu, Dropdown, Button } from 'antd';
 import logo from '../../assets/images/logo.svg';
 import { ImMenu } from 'react-icons/im';
@@ -8,10 +8,12 @@ import {Link, animateScroll as scroll } from 'react-scroll';
 import './index.scss';
 
 function Header() {
+    const [visible, setvisible] = useState(false); 
+
     const menu = (
-        <Menu className='menu'>
+        <Menu className='menu' >
             <Menu.Item className='menuItem' key="0">
-                <Link onClick={scrollToTop}>[ Home ]</Link>
+                <Link to='Home' onClick={scrollToTop}>[ Home ]</Link>
             </Menu.Item>
             <Menu.Item className='menuItem' key="1">
                 <Link 
@@ -21,8 +23,9 @@ function Header() {
                         smooth={true}
                         offset={-70}
                         duration={500}
+                        onClick={handleMenuClick}
                     >
-                        [About]
+                        [ About ]
                     </Link>
             </Menu.Item>
             <Menu.Item className='menuItem' key="2">
@@ -33,8 +36,9 @@ function Header() {
                         smooth={true}
                         offset={-70}
                         duration={500}
+                        onClick={handleMenuClick}
                     >
-                        [Projects]
+                        [ Projects ]
                     </Link>
             </Menu.Item>
             <Menu.Item className='menuItem' key="3">
@@ -45,8 +49,9 @@ function Header() {
                         smooth={true}
                         offset={-70}
                         duration={500}
+                        onClick={handleMenuClick}
                     >
-                        [Contact]
+                        [ Contact ]
                     </Link>
             </Menu.Item>   
         </Menu>
@@ -54,6 +59,15 @@ function Header() {
 
     function scrollToTop() {
         scroll.scrollToTop();
+        setvisible(false);
+    }
+
+    function handleVisibleChange() {
+        setvisible(!visible)
+    }
+
+    function handleMenuClick() {
+        setvisible(false);
     }
 
     return(
@@ -79,7 +93,7 @@ function Header() {
                         offset={-70}
                         duration={500}
                     >
-                        [About]
+                        [ About ]
                     </Link>
                     <Link 
                         to="Portfolio"
@@ -89,7 +103,7 @@ function Header() {
                         offset={-70}
                         duration={500}
                     >
-                        [Projects]
+                        [ Projects ]
                     </Link>
                     <Link 
                         to="Contact"
@@ -99,10 +113,10 @@ function Header() {
                         offset={-70}
                         duration={500}
                     >
-                        [Contact]
+                        [ Contact ]
                     </Link>
             </nav>
-                <Dropdown className='dropdown' overlay={menu} trigger={['click']} placement='bottomRight'>
+                <Dropdown className='dropdown' overlay={menu} trigger={['click']} placement='bottomRight' visible={visible} onVisibleChange={handleVisibleChange}>
                     <Button className='buttonMenu'><ImMenu></ImMenu></Button>
                 </Dropdown>
         </div>
