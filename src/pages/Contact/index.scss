@@ -54,7 +54,11 @@
     padding: 0 5px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 810px){
     .Contact {flex-direction: column; gap: 0; text-align: center;}
     .aboutText {align-items: center;}
+}
+
+@media screen and (max-width: 400px) {
+    .Tech {display: none;}
 }
