@@ -9,7 +9,8 @@ function Footer() {
     return (
         <footer className="Footer">
             <FaRegCopyright/>
-            <p>Copyright 2022 - <img src={logoFooter} alt="VNSL" /> - All Rights Reserved </p>
+            <p>Copyright 2022 - All Rights Reserved</p>
+            <img src={logoFooter} alt="VNSL" />
         </footer>
     )
 }

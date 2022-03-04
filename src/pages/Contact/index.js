@@ -1,6 +1,6 @@
 import React from "react";
 
-import profileImage from '../../assets/images/profile.jpg';
+import profileImage from '../../assets/images/profile2.jpg';
 import Polygon from '../../assets/images/polygon.svg';
 
 import { FaCss3Alt, FaHtml5, FaSass, FaReact, FaAngular, FaNodeJs} from 'react-icons/fa';

@@ -8,7 +8,7 @@ import './index.scss';
 function Home() {
     return (
         <div className="homeContainer">
-                <p>"Hey There, I am a FullStack Developer. I am currently working for Ford Motor Company. I am always trying to learn everything that I can and challenging myself to reach higher goals."</p>
+                <p>"Hey there, My name is Vinicius, I am a full stack developer. Passionate about programming and making things rational and logical."</p>
                 <div className="HomeIcons">
                     <a href="https://github.com/vnsl" target="_blank" rel="noreferrer">
                         <BsGithub/>

@@ -9,12 +9,20 @@
     background-color: #444444;
     color: $secondaryColor;
     gap: 5px;
+
+    position: relative;
 }
+
+// .Footer:last-child {
+//     justify-content: flex-end;
+// }
 
 .Footer p {
     margin: 0;
 }
 
 .Footer img {
+    position: absolute;
+    right: 0;
     width: 60px;
 }
