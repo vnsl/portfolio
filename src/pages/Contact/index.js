@@ -44,14 +44,30 @@ function Contact() {
                 <div className="ContactLinks">
                     <h1>[Technologies]</h1>
                     <div className="iconsContainer">
-                        <FaHtml5/>
-                        <FaCss3Alt/>
-                        <FaSass/>
-                        <SiJavascript/>
-                        <FaReact/>
-                        <FaAngular/>
-                        <FaNodeJs/>
-                        <SiPostgresql/>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <FaHtml5/>
+                        </a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <FaCss3Alt/>
+                        </a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <FaSass/>
+                        </a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <SiJavascript/> 
+                        </a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <FaReact/>
+                        </a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <FaAngular/>
+                        </a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <FaNodeJs/>
+                        </a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <SiPostgresql/>
+                        </a>
                     </div>
                 </div>
             </div>
