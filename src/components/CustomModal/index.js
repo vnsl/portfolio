@@ -27,10 +27,11 @@ function CustomModal({project}) {
         ]} onCancel={handleCancel}>
         <h2>Description:</h2>
         <p>{project.Description}</p>
-        {project.Links.map(link => 
+        {project.Links.map(link =>
             <div key={project.Title+link.url} className='ModalLinks'>
               <h3>{link.label}: &nbsp;</h3>
-              <a href={link.url}>{link.url}</a>
+              {link.url === "Enterprise GitHub" ? <p href={link.url}>{link.url}</p> : <a href={link.url}>{link.url}</a>}
+              {/* <a href={link.url}>{link.url}</a> */}
             </div>
         )}
         <div className='ModalImages'>
