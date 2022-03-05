@@ -5,7 +5,7 @@ import './index.scss';
 
 function CustomModal({project}) {
   const [isModalVisible, setIsModalVisible] = useState(false);
-  
+
   const showModal = () => {
     setIsModalVisible(true);
   };
@@ -27,16 +27,15 @@ function CustomModal({project}) {
         ]} onCancel={handleCancel}>
         <h2>Description:</h2>
         <p>{project.Description}</p>
-        {/* <h2>Links:</h2> */}
         {project.Links.map(link => 
-          <div className='ModalLinks'>
-            <h3>{link.label}: &nbsp;</h3>
-            <a href={link.url}>{link.url}</a>
-          </div>
+            <div key={project.Title+link.url} className='ModalLinks'>
+              <h3>{link.label}: &nbsp;</h3>
+              <a href={link.url}>{link.url}</a>
+            </div>
         )}
         <div className='ModalImages'>
           {project.Images.map(image => 
-              <img src={image} alt={image}/>
+              <img key={project.Title+image} src={image} alt={image}/>
           )}
         </div>
       </Modal>
