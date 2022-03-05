@@ -27,11 +27,11 @@ function CustomModal({project}) {
         ]} onCancel={handleCancel}>
         <h2>Description:</h2>
         <p>{project.Description}</p>
-        <h2>Links:</h2>
+        {/* <h2>Links:</h2> */}
         {project.Links.map(link => 
           <div className='ModalLinks'>
-            <h3>{link.label}:</h3>
-            <p>{ link.url}</p>
+            <h3>{link.label}: &nbsp;</h3>
+            <a>{link.url}</a>
           </div>
         )}
         <div className='ModalImages'>

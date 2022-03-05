@@ -11,6 +11,11 @@
 .ModalLinks {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
+}
+
+.ModalLinks h3 {
+    margin: 0;
 }
 
 .ModalImages {
@@ -22,4 +27,8 @@
 
 .ButtonModal {
     background-color: $primaryColor;
+}
+
+.ant-modal-title {
+    font-size: 32px;
 }
