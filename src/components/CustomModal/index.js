@@ -31,7 +31,7 @@ function CustomModal({project}) {
         {project.Links.map(link => 
           <div className='ModalLinks'>
             <h3>{link.label}: &nbsp;</h3>
-            <a>{link.url}</a>
+            <a href={link.url}>{link.url}</a>
           </div>
         )}
         <div className='ModalImages'>
