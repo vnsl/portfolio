@@ -62,7 +62,7 @@
        {
            "id": 1,
            "Title": "Cubos Checkout",
-           "Description": "A Back-end challenge made in Cubos Academy course, create and REST-api for comercialized products. Manipulate and check inventory.",
+           "Description": "A Back-end challenge made in Cubos Academy course, focused on the creation of a REST-api for comercialized products. Manipulate and check inventory.",
            "Links": [
                 {"label": "GitHub",
                 "url": "https://github.com/vnsl/cubos-checkout"}

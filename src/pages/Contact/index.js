@@ -29,12 +29,12 @@ function Contact() {
                         <a href="https://github.com/vnsl" target="_blank" rel="noreferrer">
                             <BsGithub/>
                         </a>
-                        <a href="https://github.com/vnsl" target="_blank" rel="noreferrer">
+                        <a href="https://www.instagram.com/vininattan/" target="_blank" rel="noreferrer">
                             <BsInstagram/>
                         </a>
-                        <a href="https://github.com/vnsl" target="_blank" rel="noreferrer">
+                        {/* <a href="https://github.com/vnsl" target="_blank" rel="noreferrer">
                             <BsTwitter/>
-                        </a>
+                        </a> */}
                         <a href="mailto:viniciusnattan@hotmail.com" target="_blank" rel="noreferrer">
                             <AiOutlineMail/>
                         </a>
@@ -44,28 +44,28 @@ function Contact() {
                 <div className="ContactLinks Tech">
                     <h1>[ Technologies ]</h1>
                     <div className="iconsContainer">
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/vininattan/" target="_blank" rel="noopener noreferrer">
                             <FaHtml5/>
                         </a>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.w3.org/Style/CSS/" target="_blank" rel="noopener noreferrer">
                             <FaCss3Alt/>
                         </a>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
                             <FaSass/>
                         </a>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
                             <SiJavascript/> 
                         </a>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <a href="https://pt-br.reactjs.org/" target="_blank" rel="noopener noreferrer">
                             <FaReact/>
                         </a>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">
                             <FaAngular/>
                         </a>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
                             <FaNodeJs/>
                         </a>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
                             <SiPostgresql/>
                         </a>
                     </div>

@@ -39,7 +39,6 @@ function CustomModal({project}) {
               <img src={image} alt={image}/>
           )}
         </div>
-        {/* <img src={require("../../assets/images/projects/background1.JPG")} alt="aasd" /> */}
       </Modal>
     </>
   );
