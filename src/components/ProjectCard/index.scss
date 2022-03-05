@@ -4,7 +4,7 @@
     // width: 400px;
     height: 250px;
 
-    background-color: red;
+    background-color: rgb(179, 177, 177);
     border-radius: 10px;
 
     // cursor: pointer;
@@ -13,4 +13,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.ProjectCard:hover {
+    background-color: #FAFAFA;
 }
