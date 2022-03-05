@@ -16,7 +16,7 @@ function Portfolio() {
                 <FiFilter/>
             </div>
             <div className="projectCards">
-                {allProjects.map(project => <ProjectCard project={project}/>)}
+                {allProjects.map(project => <ProjectCard key={project.id} project={project}/>)}
             </div>
         </div>
     )

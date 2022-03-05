@@ -1,3 +1,5 @@
+@import '../../index.scss';
+
 .Modal {
     width: 800px !important;
 }
@@ -16,4 +18,8 @@
     justify-content: center;
     gap: 15px;
     grid-template-columns: repeat(auto-fill, 200px);
+}
+
+.ButtonModal {
+    background-color: $primaryColor;
 }

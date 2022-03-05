@@ -16,7 +16,7 @@ function CustomModal({project}) {
 
   return (
     <>
-      <Button type="primary" onClick={showModal}>
+      <Button className='ButtonModal' type="primary" onClick={showModal}>
         Show Info
       </Button>
       <Modal className='Modal' title={project.Title} visible={isModalVisible}
