@@ -8,7 +8,7 @@ function ProjectCard({project}) {
   return (
     <div className="ProjectCard" >
         <h1>{project.Title}</h1>
-        <CustomModal project={project}></CustomModal>
+        <CustomModal key={"card"+project.id} project={project}></CustomModal>
     </div>
   )
 }
