@@ -91,7 +91,7 @@ function Header() {
                         activeClass="active"
                         spy={true}
                         smooth={true}
-                        offset={70}
+                        offset={0}
                         duration={500}
                     >
                         [ About ]
@@ -101,7 +101,7 @@ function Header() {
                         activeClass="active"
                         spy={true}
                         smooth={true}
-                        offset={70}
+                        offset={0}
                         duration={500}
                     >
                         [ Projects ]
@@ -111,7 +111,7 @@ function Header() {
                         activeClass="active"
                         spy={true}
                         smooth={true}
-                        offset={70}
+                        offset={0}
                         duration={500}
                     >
                         [ Contact ]
