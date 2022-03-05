@@ -4,7 +4,7 @@ import profileImage from '../../assets/images/profile2.jpg';
 import Polygon from '../../assets/images/polygon.svg';
 
 import { FaCss3Alt, FaHtml5, FaSass, FaReact, FaAngular, FaNodeJs} from 'react-icons/fa';
-import { BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+import { BsGithub, BsInstagram } from 'react-icons/bs';
 import { AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai';
 import { SiJavascript, SiPostgresql } from 'react-icons/si';
 
