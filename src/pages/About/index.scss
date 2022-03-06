@@ -28,17 +28,19 @@
     color: black;
 }
 
-.aboutText button {
+.aboutText a {
     width: 250px;
     height: 65px;
     background-color: $primaryColor;
     color: $secondaryColor;
-    border: none;
     border-radius: 10px;
-    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
 
-.aboutText button:hover {
+.aboutText a:hover {
     background-color: $thirdColor;
 }
 
