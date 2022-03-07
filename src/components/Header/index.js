@@ -48,7 +48,7 @@ function Header() {
                         activeClass="active"
                         spy={true}
                         smooth={true}
-                        offset={70}
+                        offset={-70}
                         duration={500}
                         onClick={handleMenuClick}
                     >
