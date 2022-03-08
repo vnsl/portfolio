@@ -1,0 +1,41 @@
+@import '../../index.scss';
+
+.headerPDF {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    font-family: $primaryFont;
+    background-color: $primaryColor;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerPDF a {
+    height: 100%;
+    color: $secondaryColor;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 21px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid transparent;
+
+    padding: 0 15px;
+}
+
+.headerPDF a:hover {
+    border-bottom: 4px solid #FAFAFA;
+}
+
+@media screen and (max-width: 600px) {
+    .header {padding: 10px 20px;}
+}
