@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/images/logo_noBar.png';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import './index.scss';
 

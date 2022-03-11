@@ -41,19 +41,9 @@
     display: none;
 }
 
-.FooterPDF {
-    position: absolute;
-    bottom: 0;
-}
-
 @media screen and (max-width: 600px){
     .react-pdf__Page {
         width: 110vw !important;
         // height: 100vh;
-    }
-    
-    .react-pdf__Page__canvas {
-        width: inherit !important;
-        height: inherit !important;
     }
 }
