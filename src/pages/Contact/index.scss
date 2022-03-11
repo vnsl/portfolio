@@ -62,3 +62,7 @@
 @media screen and (max-width: 400px) {
     .Tech {display: none;}
 }
+
+@media screen and (max-height: 750px) {
+    .ContactProfile {padding-top: 80px;}
+  }

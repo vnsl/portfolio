@@ -39,3 +39,8 @@
         text-align: center;
     }
 }
+
+@media screen and (max-height: 800px){
+    .PortfolioHeader {padding-top: 70px; margin: 0;}
+    .projectCards {padding: 0;}
+}

@@ -68,3 +68,18 @@
     .aboutImg {display: none;}
     .About {align-items: flex-start; padding: 200px 0;}
 }
+
+@media screen and (max-height: 800px){
+    .About {padding: 60px 0 0 0; min-height: min-content;}
+    .aboutText {gap: 20px;}
+    .aboutText h1 {margin: 0;}
+    .aboutText a {width: 150px; height: 50px;}
+    .About p {font-size: 20px;}
+}
+@media screen and (max-height: 550px){
+    .About {padding: 60px 0 0 0; min-height: min-content;}
+    .aboutText {gap: 0px;}
+    .aboutText h1 {margin: 0;}
+    .aboutText a {width: 100px; height: 40px;}
+    .About p {font-size: 15px;}
+}
