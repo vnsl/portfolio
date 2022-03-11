@@ -2,7 +2,7 @@
 
 .Contact {
     min-height: 450px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #FFFFFF;
 
     display: flex;
@@ -57,8 +57,10 @@
 @media screen and (max-width: 810px){
     .Contact {flex-direction: column; gap: 0; text-align: center;}
     .aboutText {align-items: center;}
+    .ContactInfo {align-items: center;}
+    .ContactSeparator {width: 80%; }
 }
 
-@media screen and (max-width: 400px) {
-    .Tech {display: none;}
-}
+@media screen and (max-height: 750px) {
+    .ContactProfile {padding-top: 80px;}
+  }

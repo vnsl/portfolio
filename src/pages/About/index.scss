@@ -15,7 +15,6 @@
 }
 
 .aboutText {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -28,17 +27,19 @@
     color: black;
 }
 
-.aboutText button {
+.aboutText a {
     width: 250px;
     height: 65px;
     background-color: $primaryColor;
     color: $secondaryColor;
-    border: none;
     border-radius: 10px;
-    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
 
-.aboutText button:hover {
+.aboutText a:hover {
     background-color: $thirdColor;
 }
 
@@ -59,10 +60,28 @@
 
 @media screen and (max-width: 600px){
     .aboutImg {display: none;}
-    .aboutText {align-items: center; text-align: center;}
+    .aboutText {align-items: flex-start; text-align: center;}
+    .About p {margin: 0}
+    .aboutText a {width: 150px; height: 50px;}
 }
 
 @media screen and (max-width: 1000px) {
     .aboutImg {display: none;}
     .About {align-items: flex-start; padding: 200px 0;}
+}
+
+@media screen and (max-height: 800px){
+    .About {padding: 60px 0 0 0; min-height: min-content;}
+    .aboutText {gap: 20px;}
+    .aboutText h1 {margin: 0;}
+    .aboutText a {width: 150px; height: 50px;}
+    .About p {font-size: 20px;}
+}
+
+@media screen and (max-height: 550px){
+    .About {padding: 60px 0 0 0; min-height: min-content;}
+    .aboutText {gap: 0px;}
+    .aboutText h1 {margin: 0;}
+    .aboutText a {width: 100px; height: 40px;}
+    .About p {font-size: 15px;}
 }

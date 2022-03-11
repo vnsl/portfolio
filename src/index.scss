@@ -46,3 +46,7 @@ p {
   bottom: 0;
   z-index: 1;
 }
+
+@media screen and (max-height: 750px) {
+  .triangle {height: 100vh; }
+}

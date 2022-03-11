@@ -1,7 +1,7 @@
 @import '../../index.scss';
 
 .homeContainer {
-    background: linear-gradient(180deg, rgba(20, 44, 80, 0) 54.69%, rgba(20, 44, 80, 0.71) 78.65%), url("../../assets/images/background.jpeg") no-repeat center;
+    background: linear-gradient(180deg, rgba(20, 44, 80, 0) 54.69%, rgba(20, 44, 80, 0.71) 78.65%), url("../../assets/images/hero_background.png") no-repeat center;
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -47,5 +47,20 @@
 
 
 @media screen and (max-width: 600px){
-    .homeContainer p {font-size: 16px; line-height: 48px; padding-bottom: 30px;}
+    .homeContainer p {font-size: 30px; line-height: 48px; padding-bottom: 0; width: 90%; text-shadow: 0 0 3px black}
+    .HomeIcons {
+        bottom: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 40px;
+        gap: 20px;
+        position: initial;
+        right: 3vw;
+    }
+}
+
+@media screen and (max-height: 750px){
+    .homeContainer p {font-size: 32px; line-height: 48px; padding-bottom: 0px;}
+    .homeContainer {min-height: min-content;}
 }
