@@ -10,7 +10,7 @@
     background-color: $primaryColor;
 }
 
-.navbar {
+.navbarPDF {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +36,5 @@
 }
 
 @media screen and (max-width: 600px) {
-    .header {padding: 10px 20px;}
-    .navbar {display: none}
+    .headerPDF {padding: 10px 20px;}
 }

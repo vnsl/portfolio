@@ -14,8 +14,9 @@ function HeaderPDF() {
     return(
         <div className='headerPDF'>
             <img className='logo' src={logo} alt='Profile' onClick={goHome}/>
-            <nav className='navbar'>
-                   <Link to="/">[ Home ]</Link>
+            <nav className='navbarPDF'>
+                   {/* <Link to="/">[ Home ]</Link> */}
+                   <a href="ViniciusNattan-CV.pdf" download>[ Download ]</a>
             </nav>
         </div>
     )
