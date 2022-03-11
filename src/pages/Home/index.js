@@ -19,9 +19,7 @@ function Home() {
                     <a href="mailto:viniciusnattan@hotmail.com" target="_blank" rel="noreferrer">
                         <AiOutlineMail/>
                     </a>
-                </div>
-            
-                   
+                </div>  
         </div>
 
     )

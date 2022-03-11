@@ -47,7 +47,7 @@
 
 
 @media screen and (max-width: 600px){
-    .homeContainer p {font-size: 30px; line-height: 48px; padding-bottom: 30px; width: 90%}
+    .homeContainer p {font-size: 30px; line-height: 48px; padding-bottom: 0; width: 90%; text-shadow: 0 0 3px black}
     .HomeIcons {
         bottom: 10vh;
         display: flex;
@@ -61,6 +61,6 @@
 }
 
 @media screen and (max-height: 750px){
-    .homeContainer p {font-size: 32px; line-height: 48px; padding-bottom: 30px;}
+    .homeContainer p {font-size: 32px; line-height: 48px; padding-bottom: 0px;}
     .homeContainer {min-height: min-content;}
 }
